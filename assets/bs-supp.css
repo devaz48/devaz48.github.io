@@ -1,0 +1,20 @@
+ /* @font-face {
+    font-family: main-font;
+    src: url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: "Space Mono", monospace;
+}
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+
+.navbar-nav {
+    text-align: right;
+}
