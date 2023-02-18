@@ -5,6 +5,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
+body::selection {
+    background: #03DAC6;
+}
+
 body {
     font-family: "Space Mono", monospace;
 }
