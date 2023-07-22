@@ -5,23 +5,19 @@ theme:
     logo: material/cat 
   custom_dir: overrides
   palette:
-
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/lightbulb-auto
-        name: Mode Otomatis
-
-    - media: "(prefers-color-scheme: light)"
-      scheme: default 
+ - scheme: default
       toggle:
         icon: material/toggle-switch-off-outline 
-        name: Mode Terang
-
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    
+    - scheme: slate 
       toggle:
         icon: material/toggle-switch
-        name: Mode Gelap
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
 
 copyright: This Website Is Maintained by Devaz48
 plugins: []
